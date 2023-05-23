@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MuestraDatos">
+
+    <TextView
+        android:id="@+id/txtbienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/txtdatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtbienvenida"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="Datos"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtdatos"
+        android:text="Nombre"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/Nombre1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtdatos"
+        android:layout_alignLeft="@id/txtNombre"
+        android:text="Izaamar Navarro"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/txtNombre2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNombre"
+        android:text="Jonathan Gonzalez"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/txtNombre3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNombre2"
+        android:text="Angel Gonzalez"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/txtGrupo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNombre3"
+        android:text="Grupo"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/txtGrupo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNombre3"
+        android:text="1LS232"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/txtTema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtGrupo"
+        android:text="Tema"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/Tema1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtGrupo1"
+        android:text=" Creando Login con Intent"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="40dp"
+        android:textSize="15sp"/>
+
+</RelativeLayout>
